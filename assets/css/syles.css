@@ -1,0 +1,32 @@
+#head {
+    background-color: #ffffff;
+    position: relative;
+    border-bottom: 3px solid #777777;
+    height: 50px;
+    width: 100%;
+
+}
+
+#name {
+    font-size: 33px;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+
+}
+ul {
+    display: inline;
+    list-style: none;
+    padding: 20px;
+}
+
+nav {
+    font-color: #777777;
+    float: right;
+}
+footer {
+    background-color: #666666;
+    font-color: white;
+    border-top: 3px solid #4aaaa5;
+}
