@@ -1,91 +1,209 @@
 *{
-    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+
 }
 
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+ h2{
+     font-family: 'Georgia', Times, Times New Roman, serif;
+     font-size: 30px;
+     color: #4aaaa5;
+     padding-bottom: 30px;
+     border-bottom: 3px solid #dddddd;
+ }
 
-
+p{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding-bottom: 15px;
+    line-height: 1.5em;
+}
 
 
 #head {
     background-color: #ffffff;
-    position: relative;
+        position: relative;
     border-bottom: 3px solid #cccccc;
-    height: 50px;
+    height: 106px;
     width: 100%;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    }
 
+#top {
+width: 960px;
+float: center;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+
+}
+
+nav {
+    float: right;
+    margin-top: 40px;
+    margin-right: -25px;
+    width: 245px;
 }
 
 #name {
-    font-size: 33px;
-    position: absolute;
+    padding: 35px;
+    width: 258px;
     background-color: #4aaaa5;
     color: white;
-    text-align: center;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-
-
-
-
-}
-ul {
-    text-align: center;
-    list-style: none;
-    padding: 20px;
+    float:left;
 
 }
 
 li{
     display: inline;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+font-size: 17px;
+border-right: 1px solid #cccccc;
+padding: 8px;
 }
-
-nav {
-    color: #777777;
-    float: right;
-}
-
-h1{
-    color: #4aaaa5;
-    border-bottom: 3px solid #cccccc;
-}
-
-p{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-}
-
-
 
 #wrapper{
 width: 960px;
-height: 960px;
-float: right;
-padding: 30px;
-
-
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
 }
 
+body{
+    background-image: url("assets/images/regal/regal.png");
 
+main{
+border: 1px solid #cccccc;
+float: center;
+padding: 45px 30px;
+background-color: #ffffff;
+margin-top: 65px;
 
-
-
-
-
-
-
-
-
+}
 
 
 footer {
-    position: fixed;
     background-color: #666666;
-    color:#cccccc;
     border-top: 7px solid #4aaaa5;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-    height: 9%;
+    margin-top: 150px;
+    padding-top: 40px;
 }
 
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+#content{
+    padding-top: 30px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    border: 1px solid #cccccc;
+    resize: vertical;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+label {
+    padding: 16px 12px 12px 0;
+    display: inline-block;
+}
+
+.container{
+padding: 20px;
+margin-top: 30px;
+border-radius: 5px;
+
+}
+
+input[type=submit]{
+    color: white;
+    padding: 10px 20px;
+    margin-right: 2%;
+    float:left;
+    background-color: #4aaaa5;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.colA{
+    float: center;
+    width: 95%;
+}
+
+.colA p{
+    padding: 0;
+}
+
+.colB{
+    float: center;
+    width: 95%;
+    margin-top: 5px;
+}
+
+h3 {
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 16px;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 89%;
+    position: absolute;
+    margin-top: -80px;
+    padding: 15px;
+}
+
+#placeholder1 {
+    position: relative;
+    float: left;
+    width: 275px;
+    padding-bottom: 50px;
+    z-index: inherit -1;
+}
+
+#placeholder2 {
+    position: relative;
+    float: left;
+    width: 275px;
+    padding-bottom: 50px;
+    margin-right: 300px;
+    z-index: inherit -1;
+}
+
+#placeholder3 {
+    position: relative;
+    float: left;
+    width: 275px;
+    padding-bottom: 50px;
+    clear: both;
+    z-index: inherit -1;
+}
+
+#placeholder4 {
+    position: relative;
+    float: right;
+    width: 275px;
+    padding-bottom: 50px;
+    z-index: inherit -1;
+    margin-right: 300px;
+}
+
+#placeholder5 {
+    position: relative;
+    float: left;
+    width: 275px;
+    padding-bottom: 50px;
+    z-index: inherit -1;
+    clear: both;
+
+}
+
+.extend {
+    height: 850px;
+}
