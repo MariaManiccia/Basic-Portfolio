@@ -40,6 +40,12 @@ overflow: hidden;
 
 }
 
+.selfimg{
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+
 nav {
     float: right;
     margin-top: 40px;
@@ -64,9 +70,22 @@ border-right: 1px solid #cccccc;
 padding: 8px;
 }
 
-li :hover{
-    color: #cccccc;
+li:link{
+    color:#666666;
 }
+
+li :visited{
+    color: #777777;
+}
+
+li :hover{
+    color: purple;
+}
+
+li :focus{
+    color:#cccccc;
+}
+
 
 #wrapper{
 width: 960px;
@@ -76,7 +95,7 @@ overflow: hidden;
 }
 
 body{
-    background-image: url("assets/images/regal/regal.png");
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/brickwall.png");
 }
 
 main {
@@ -125,15 +144,20 @@ border-radius: 5px;
 
 }
 
-input[type=submit]{
-    color: white;
-    padding: 10px 20px;
-    margin-right: 2%;
-    float:left;
+input[type=submit] {
     background-color: #4aaaa5;
+    color: white;
+    margin-right: 3%;
+    padding: 15px 20px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+}
 
+input[type=submit]:hover {
+    background-color: purple;
 }
 
 .colA{
@@ -171,13 +195,21 @@ h3 {
     z-index: inherit -1;
 }
 
+#placeholder1 :visited{
+    color: white;
+}
+
 #placeholder2 {
     position: relative;
-    float: left;
+    float: right;
     width: 275px;
     padding-bottom: 50px;
     margin-right: 300px;
     z-index: inherit -1;
+}
+
+#placeholder2 :visited{
+    color: white;
 }
 
 #placeholder3 {
@@ -189,6 +221,10 @@ h3 {
     z-index: inherit -1;
 }
 
+#placeholder3 :visited{
+    color: white;
+}
+
 #placeholder4 {
     position: relative;
     float: right;
@@ -196,6 +232,10 @@ h3 {
     padding-bottom: 50px;
     z-index: inherit -1;
     margin-right: 300px;
+}
+
+#placeholder4 :visited{
+    color: white;
 }
 
 #placeholder5 {
@@ -208,6 +248,30 @@ h3 {
 
 }
 
+#placeholder5 :visited{
+    color: white;
+}
+
 .extend {
-    height: 650px;
+    height: 960px;
+}
+
+#placeholder1 :hover{
+    color: purple;
+}
+
+#placeholder2 :hover{
+    color: purple;
+}
+
+#placeholder3 :hover{
+    color: purple;
+}
+
+#placeholder4 :hover{
+    color: purple;
+}
+
+#placeholder5 :hover{
+    color: purple;
 }
