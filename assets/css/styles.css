@@ -64,6 +64,10 @@ border-right: 1px solid #cccccc;
 padding: 8px;
 }
 
+li :hover{
+    color: #cccccc;
+}
+
 #wrapper{
 width: 960px;
 margin-left: auto;
@@ -73,8 +77,9 @@ overflow: hidden;
 
 body{
     background-image: url("assets/images/regal/regal.png");
+}
 
-main{
+main {
 border: 1px solid #cccccc;
 float: center;
 padding: 45px 30px;
@@ -82,7 +87,6 @@ background-color: #ffffff;
 margin-top: 65px;
 
 }
-
 
 footer {
     background-color: #666666;
@@ -205,5 +209,5 @@ h3 {
 }
 
 .extend {
-    height: 850px;
+    height: 650px;
 }
